@@ -25,10 +25,10 @@ public class MouseEventHandle extends Frame implements MouseListener{
 
     @Override
     public void mouseClicked(MouseEvent me) { lbl.setText("Mouse is Clicked"); }
-    public void mouseEntered(MouseEvent e) { lbl.setText("Mouse Entered"); }
-    public void mouseExited(MouseEvent e) { lbl.setText("Mouse Exited"); }
-    public void mousePressed(MouseEvent e) { lbl.setText("Mouse Pressed"); }
-    public void mouseReleased(MouseEvent e) { lbl.setText("Mouse Released"); }
+    public void mouseEntered(MouseEvent me) { lbl.setText("Mouse Entered"); }
+    public void mouseExited(MouseEvent me) { lbl.setText("Mouse Exited"); }
+    public void mousePressed(MouseEvent me) { lbl.setText("Mouse Pressed"); }
+    public void mouseReleased(MouseEvent me) { lbl.setText("Mouse Released"); }
 
     public static void main(String[] args) { new MouseEventHandle(); }
 }
